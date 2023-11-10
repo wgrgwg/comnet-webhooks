@@ -4,7 +4,7 @@ from flask_restful import Resource, Api
 import os
 
 buildBranch = 'main'
-buildPath = '/home/wgrgwg97/lab-socket-programming/'
+buildPath = '/home/wgrgwg97/comnet-webhooks/'
 
 buildCommand = 'cd ' + buildPath + ' && git pull origin ' + buildBranch
 
