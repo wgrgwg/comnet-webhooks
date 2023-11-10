@@ -1,5 +1,5 @@
 from flask import Flask, json
-from flask_restful import Resource, api
+from flask_restful import Resource, Api
 
 import os
 
